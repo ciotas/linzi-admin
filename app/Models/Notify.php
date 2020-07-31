@@ -13,4 +13,8 @@ class Notify extends Model
 
     public $fillable = ['user_id', 'duration', 'switch'];
 
+    public $casts = [
+        'switch'=> 'boolean',
+    ];
+
 }
