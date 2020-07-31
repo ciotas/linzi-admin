@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="382f5dc5-0b56-4edd-90b7-13cf0964b76b" name="Default Changelist" comment="" />
+    <list default="true" id="382f5dc5-0b56-4edd-90b7-13cf0964b76b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +29,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -138,6 +144,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1fSLWcDeL0X4KsK6CBAwOyNaLnl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -191,9 +198,9 @@
       <screen x="0" y="23" width="1280" height="721" />
     </state>
     <state x="285" y="135" width="709" height="496" key="find.popup/0.23.1280.721@0.23.1280.721" timestamp="1596213470601" />
-    <state x="305" y="68" width="670" height="676" key="search.everywhere.popup" timestamp="1596217216008">
+    <state x="305" y="68" width="670" height="676" key="search.everywhere.popup" timestamp="1596219193208">
       <screen x="0" y="23" width="1280" height="721" />
     </state>
-    <state x="305" y="68" width="670" height="676" key="search.everywhere.popup/0.23.1280.721@0.23.1280.721" timestamp="1596217216008" />
+    <state x="305" y="68" width="670" height="676" key="search.everywhere.popup/0.23.1280.721@0.23.1280.721" timestamp="1596219193208" />
   </component>
 </project>
