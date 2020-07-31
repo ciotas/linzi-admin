@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use App\Models\Notify;
+use App\Models\User;
 use Carbon\Carbon;
 use Illuminate\Console\Command;
 
@@ -44,13 +45,14 @@ class NotifyCmd extends Command
         {
             $now_minute =  Carbon::now()->minute;
             if ( ($now_minute + $notify->duration) % $notify->duration == 0) {
-                $this->pushMessage($notify->duration);
+                $this->pushMessage($notify->duration, $notify->user_id);
             }
         }
     }
 
-    private function pushMessage($duration)
+    private function pushMessage($duration, $user_id)
     {
+        $mobile = User::find($user_id)->mobile;
         $api = 'https://oapi.dingtalk.com/robot/send?access_token=9f809246656a6a8af7fff296986960a92fd0ace31ebef24ff44e467707a8be3d';
         $body = [
             'msgtype' => 'text',
@@ -59,7 +61,7 @@ class NotifyCmd extends Command
             ],
             'at' => [
                 'atMobiles' => [
-                    '13071870889'
+                    $mobile
                 ],
                 "isAtAll" => false
             ]
