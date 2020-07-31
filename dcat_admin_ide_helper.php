@@ -33,11 +33,13 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection config
      * @property Grid\Column|Collection require
      * @property Grid\Column|Collection require_dev
+     * @property Grid\Column|Collection user_id
+     * @property Grid\Column|Collection duration
+     * @property Grid\Column|Collection switch
      * @property Grid\Column|Collection parent_id
      * @property Grid\Column|Collection order
      * @property Grid\Column|Collection icon
      * @property Grid\Column|Collection uri
-     * @property Grid\Column|Collection user_id
      * @property Grid\Column|Collection permission_id
      * @property Grid\Column|Collection menu_id
      * @property Grid\Column|Collection http_method
@@ -52,6 +54,7 @@ namespace Dcat\Admin {
      * @property Grid\Column|Collection failed_at
      * @property Grid\Column|Collection email
      * @property Grid\Column|Collection token
+     * @property Grid\Column|Collection mobile
      * @property Grid\Column|Collection email_verified_at
      *
      * @method Grid\Column|Collection id(string $label = null)
@@ -76,11 +79,13 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection config(string $label = null)
      * @method Grid\Column|Collection require(string $label = null)
      * @method Grid\Column|Collection require_dev(string $label = null)
+     * @method Grid\Column|Collection user_id(string $label = null)
+     * @method Grid\Column|Collection duration(string $label = null)
+     * @method Grid\Column|Collection switch(string $label = null)
      * @method Grid\Column|Collection parent_id(string $label = null)
      * @method Grid\Column|Collection order(string $label = null)
      * @method Grid\Column|Collection icon(string $label = null)
      * @method Grid\Column|Collection uri(string $label = null)
-     * @method Grid\Column|Collection user_id(string $label = null)
      * @method Grid\Column|Collection permission_id(string $label = null)
      * @method Grid\Column|Collection menu_id(string $label = null)
      * @method Grid\Column|Collection http_method(string $label = null)
@@ -95,6 +100,7 @@ namespace Dcat\Admin {
      * @method Grid\Column|Collection failed_at(string $label = null)
      * @method Grid\Column|Collection email(string $label = null)
      * @method Grid\Column|Collection token(string $label = null)
+     * @method Grid\Column|Collection mobile(string $label = null)
      * @method Grid\Column|Collection email_verified_at(string $label = null)
      */
     class Grid {}
@@ -124,11 +130,13 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection config
      * @property Show\Field|Collection require
      * @property Show\Field|Collection require_dev
+     * @property Show\Field|Collection user_id
+     * @property Show\Field|Collection duration
+     * @property Show\Field|Collection switch
      * @property Show\Field|Collection parent_id
      * @property Show\Field|Collection order
      * @property Show\Field|Collection icon
      * @property Show\Field|Collection uri
-     * @property Show\Field|Collection user_id
      * @property Show\Field|Collection permission_id
      * @property Show\Field|Collection menu_id
      * @property Show\Field|Collection http_method
@@ -143,6 +151,7 @@ namespace Dcat\Admin {
      * @property Show\Field|Collection failed_at
      * @property Show\Field|Collection email
      * @property Show\Field|Collection token
+     * @property Show\Field|Collection mobile
      * @property Show\Field|Collection email_verified_at
      *
      * @method Show\Field|Collection id(string $label = null)
@@ -167,11 +176,13 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection config(string $label = null)
      * @method Show\Field|Collection require(string $label = null)
      * @method Show\Field|Collection require_dev(string $label = null)
+     * @method Show\Field|Collection user_id(string $label = null)
+     * @method Show\Field|Collection duration(string $label = null)
+     * @method Show\Field|Collection switch(string $label = null)
      * @method Show\Field|Collection parent_id(string $label = null)
      * @method Show\Field|Collection order(string $label = null)
      * @method Show\Field|Collection icon(string $label = null)
      * @method Show\Field|Collection uri(string $label = null)
-     * @method Show\Field|Collection user_id(string $label = null)
      * @method Show\Field|Collection permission_id(string $label = null)
      * @method Show\Field|Collection menu_id(string $label = null)
      * @method Show\Field|Collection http_method(string $label = null)
@@ -186,6 +197,7 @@ namespace Dcat\Admin {
      * @method Show\Field|Collection failed_at(string $label = null)
      * @method Show\Field|Collection email(string $label = null)
      * @method Show\Field|Collection token(string $label = null)
+     * @method Show\Field|Collection mobile(string $label = null)
      * @method Show\Field|Collection email_verified_at(string $label = null)
      */
     class Show {}

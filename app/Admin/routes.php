@@ -14,5 +14,6 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
     $router->resource('notify', 'NotifyController');
+    $router->resource('users', 'UserController');
 
 });
