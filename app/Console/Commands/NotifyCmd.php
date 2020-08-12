@@ -44,7 +44,7 @@ class NotifyCmd extends Command
         foreach ($notifys as $notify)
         {
             $now_minute =  Carbon::now()->minute;
-            if ($now_minute % $notify->duration == 0) {
+            if (($now_minute + 1) % $notify->duration == 0) {
                 $this->pushMessage($notify->duration, $notify->user_id);
             }
         }
